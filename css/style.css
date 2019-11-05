@@ -1,0 +1,116 @@
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#name {
+  text-align: left;
+}
+
+#year {
+  text-align: right;
+}
+
+.title {
+  text-align: center;
+}
+
+.free {
+  text-align: center;
+}
+
+.math {
+  background-color: red;
+  text-align: center;
+}
+
+.science {
+  background-color: orange;
+  text-align: center;
+}
+
+.english {
+  background-color: yellow;
+  text-align: center;
+}
+
+.history {
+  background-color: lime;
+  text-align: center;
+}
+
+.greek {
+  background-color: cyan;
+  text-align: center;
+}
+
+.latin {
+  background-color: magenta;
+  text-align: center;
+}
+
+.cs {
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+
+.dance {
+  background-color: pink;
+  text-align: center;
+}
+
+.theater {
+  background-color: indigo;
+  text-align: center;
+  color: white;
+}
+
+.cw {
+  background-color: purple;
+  text-align: center;
+  color: white;
+}
+
+.vgp {
+  background-color: green;
+  text-align: center;
+  color: white;
+}
+
+p#name {
+  text-align: left;
+  !important border: 0px solid white;
+}
+
+p#year {
+  text-align: right;
+  !important border: 0px solid white;
+}
+
+td {
+  text-align: center;
+}
+
+div.border > div {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+div.time {
+  float: left;
+}
+
+body {
+  font-weight: 500;
+}
+
+a:hover {
+  font-size: 15px;
+  color: red;
+}
